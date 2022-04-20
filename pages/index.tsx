@@ -23,12 +23,17 @@ const HomePage: NextPage = () => {
           to a submodule example.
         </P>
 
+        <P>
+          THere is a different{' '}
+          <Link href="/smf-child-2/cool" passHref>
+            <TextLink>link</TextLink>
+          </Link>{' '}
+          to a submodule example.
+        </P>
+
         <Flex stack="mobile">
-          <Link href="/other" passHref>
-            <Button size="large">Click Me</Button>
-          </Link>
           <Button
-            color="secondary"
+            size="large"
             onClick={() => {
               alert('Hello 1');
             }}
@@ -37,9 +42,17 @@ const HomePage: NextPage = () => {
           </Button>
           <Button
             color="secondary"
-            size="small"
             onClick={() => {
               alert('Hello 2');
+            }}
+          >
+            Click Me
+          </Button>
+          <Button
+            color="secondary"
+            size="small"
+            onClick={() => {
+              alert('Hello 3');
             }}
           >
             Click Me

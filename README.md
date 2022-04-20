@@ -39,8 +39,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Git Submodules
 
-When you're on the parent branch directory, you can pull all submodule changes by running:
+When you're on the parent directory, you can pull all submodule changes by running:
 
 ```
 git pull --recurse-submodules
+```
+
+To add a new submodule, navigate to the parent directory and run:
+
+```
+git submodule add git@github.com:organization/your-repo.git
 ```

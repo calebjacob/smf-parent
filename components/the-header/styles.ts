@@ -7,7 +7,7 @@ export const Header = styled('header', {
   textAlign: 'center'
 });
 
-export const Logo = styled('p', {
+export const Logo = styled('a', {
   color: '$surface1',
   fontSize: '1rem',
   fontWeight: 500,

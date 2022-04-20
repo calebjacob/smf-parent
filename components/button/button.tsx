@@ -3,6 +3,7 @@ import type { ComponentProps } from '@stitches/react';
 import * as S from './styles';
 
 interface Props extends ComponentProps<typeof S.Button> {
+  as?: 'a' | 'button';
   type?: 'button' | 'submit' | 'reset';
 }
 
