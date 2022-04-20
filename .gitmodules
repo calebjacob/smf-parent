@@ -1,6 +1,8 @@
 [submodule "smf-child-1"]
 	path = smf-child-1
 	url = git@github.com:calebjacob/smf-child-1.git
+	branch = master
 [submodule "smf-child-2"]
 	path = smf-child-2
 	url = git@github.com:calebjacob/smf-child-2.git
+	branch = master
