@@ -7,6 +7,7 @@ import { H1, H2, H3 } from '@/components/heading';
 import { P } from '@/components/paragraph';
 import { Section } from '@/components/section';
 import { TextLink } from '@/components/text-link';
+import { CrazyThing } from '@/smf-child-1/components/crazy-thing';
 
 const HomePage: NextPage = () => {
   return (
@@ -47,8 +48,8 @@ const HomePage: NextPage = () => {
       </Section>
 
       <Section>
-        <H2>Another Section</H2>
-        <P>This is some other paragraph text.</P>
+        <H2>A Submodule Component</H2>
+        <CrazyThing title="Hello There!"></CrazyThing>
       </Section>
 
       <Section>

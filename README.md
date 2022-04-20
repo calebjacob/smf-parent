@@ -36,3 +36,11 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. Hot reloading is set up to pull in changes whenever code is modified.
+
+## Git Submodules
+
+When you're on the parent branch directory, you can pull all submodule changes by running:
+
+```
+git pull --recurse-submodules
+```
