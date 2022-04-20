@@ -4,7 +4,13 @@ A Next JS framework experiment using git submodules to orchestrate multiple modu
 
 ## Getting Started
 
-To get started, make sure you have NVM installed to manage your current version of Node and NPM:
+Once you clone the repository, you'll need to sync the submodules:
+
+```
+git submodule update --init --recursive
+```
+
+Make sure you have NVM installed to manage your current version of Node and NPM:
 
 ```
 brew install nvm
