@@ -39,6 +39,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Git Submodules
 
+Helpful cheat sheet: https://www.devroom.io/2020/03/09/the-git-submodule-cheat-sheet/
+
 When you're on the parent directory, you can pull all submodule changes by running:
 
 ```
