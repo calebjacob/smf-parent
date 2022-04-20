@@ -1,0 +1,3 @@
+[submodule "smf-child-1"]
+	path = smf-child-1
+	url = git@github.com:calebjacob/smf-child-1.git
